@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/foto-perfil.png"/>
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="img/foto-perfil.png" class="foto-perfil">
+        </div>
+        <div>
+          <h1 class="nome-completo" id="minhaNav">Laisa Alves</h1>
+          <h2 class="profissao">Desenvolvedora Front-end</h2>
+        </div>
+        <div class="texto-sobre">
+          <p>
+            Sou apaixonada por design, artes e tecnologia. Brasileira e paulistana, 
+            hoje faço parte de diversos projetos dentro e fora do país. Atualmente, 
+            tenho desenvolvido trabalhos para Secretaria de Urbanismo e Licenciamento (SMUL) 
+            do Estado de São Paulo ao lado da Assessoria de Comunicação/Imprensa e deesenvolvendo projetos 
+            ao lado do time de tecnologia e inovação na construção de sistemas e plataformas digitais disponíveis aos servidores e munícipes do Estado.
+
+            Presto regularmente serviços voluntários ao Movimento Web para Todos e, 
+            com isso, contribuo ativamente para a transformação da web brasileira num ambiente 
+            muito mais justo, inclusivo e acessível a todas as pessoas.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Introdução Tecnológica</p>
+              <a href="https://minasprogramam.com/" target="_blank" class="lista-local">Minas Programam</a>
+              <p class="lista-descricao">
+                O Minas Programam é uma iniciativa criada em 2015 para desafiar os estereótipos de gênero e 
+                de raça que influenciam nossa relação com as áreas de ciências, tecnologia e computação, promovendo
+                oportunidades de aprendizado sobre programação para meninas e mulheres, priorizando àquelas que são negras ou indígenas. Curso de 
+                introdução a programação com foco em HTML, CSS, UX Design, Lógica de Programação e outros.
+              </p>
+            </li>
+
+            <li>
+              <p class="lista-titulo">Design Gráfico</p>
+              <a href="https://www.cruzeirodosul.edu.br/" target="_blank" class="lista-local">Universidade Cruzeiro do Sul</a>
+              <p class="lista-descricao">
+                Curso Tecnólogo em Design Gráfico com foco em projetos publicitários (outdoors, folhetos, campanhas publicitárias, catálogos, 
+                pôsteres e vinhetas), projetos gráficos editoriais (livros, jornais, revistas e quadrinhos), projetos de imagem corporativa
+                (identidade visual, logotipos, papelaria e sinalização). Trabalhos e projetos publicados na revista semestral da universidade e apoio
+                a equipe de coordenação e diagramação.
+              </p>
+            </li>
+
+            <li>
+              <p class="lista-titulo">Computação Gráfica</p>
+              <a href="https://www.saga.com.br/" target="_blank" class="lista-local">Escola SAGA</a>
+              <p class="lista-descricao">
+                Curso focado em ilustração vetorial, pintura digital, composição de imagens, efeitos visuais, 
+                edição e motion graphics para vídeos, além de criar projetos interativos em 3D para 
+                realidades virtual e aumentada. Softwares que fazem parte deste curso: Adobe Photoshop, Adobe Illustrator, Adobe After Effects,
+                Adobe Premiere, Adobe Audition, Blender, Zbrush, Susbtance Painter, Maya.
+              </p>
+            </li>
+
+          </ul>
+        </div>
+
+      </article>
+    </section>
+
+    <section class="principal" id="portifolio">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Portfólio</h3>
+        </div>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Desenvolvedora Web</p>
+              <p class="subtitulo-lista">Minas Programam</p>
+              <a href="https://github.com/laisaalvesofc?tab=projects" target="_blank" class="lista-local"> GitHub</a>
+              <p class="lista-descricao">Projeto desenvolvido durante o curso do Instituto Minas Programam com a 
+                finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.
+              </p>
+            </li>
+            <li>
+              <p class="lista-titulo">Design Gráfico</p>
+              <p class="subtitulo-lista">Projetos</p>
+              <a href="https://laisaalves.myportfolio.com/" target="_blank" class="lista-local">My Portfolio.</a>
+              <p class="lista-descricao">Design gráfico, design digital, fotografia, UX//UI design.</p>
+            </li>
+            <li>
+              <p class="lista-titulo">Entrevista</p>
+              <p class="subtitulo-lista">Experiência</p>
+              <a href="https://online.pubhtml5.com/mvpu/movs/index.html#p=72" target="_blank" class="lista-local">Revista do Núcleo de Arquitetura e Design da UNICSUL</a>
+              <p class="lista-descricao">Entrevista como aluna egressa para contar sobre trajetória profissional após conclusão de curso na Universidade Cruzeiro do Sul.</p>
+            </li>
+            <li>
+              <p class="lista-titulo">Diagramação</p>
+              <p class="subtitulo-lista">Design Editorial</p>
+              <a href="https://www.instagram.com/p/CKzj8R5FdYu/?img_index=3" target="_blank" class="lista-local">Revista do Núcleo de Arquitetura e Design da UNICSUL</a>
+              <p class="lista-descricao">Diagramação da 5ª edição da Revista do Núcleo de Arquitetura e Design.</p>
+            </li>
+            <li>
+              <p class="lista-titulo">Ilustração</p>
+              <p class="subtitulo-lista">Expressão Plástica</p>
+              <a href="https://pubhtml5.com/bookcase/omjf/" target="_blank" class="lista-local">Revista do Núcleo de Arquitetura e Design da UNICSUL</a>
+              <p class="lista-descricao">Ilustração publicada na 4ª edição da Revista do Núcleo de Arquitetura e Design.</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer class="rodape" id="contato">
+    <div class="container">
+      <ul class="lista-rodape">
+        <li><i class="fas fa-envelope-square estilo-icone"></i><a href="mailto:laisa.alves.costa@gmail.com" class="links">Enviar e-mail</a></li>
+        <li href=""><i class="fab fa-linkedin estilo-icone"></i>laisaalves13</li>
+        <li href=""><i class="fab fa-github-square estilo-icone"></i>laisaalvesofc</li>
+      </ul>
+      <a href="#minhaNav" class="links">Volte ao topo</a>
+    </div>
+  </footer>
+
+</body>
+
+</html> 
