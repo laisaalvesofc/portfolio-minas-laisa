@@ -1,8 +1,7 @@
-git init 
-git add . 
-git commit -m "primeiro commit"
-git branch -M main 
-git remote add origin (junto com o link do repositório) 
-git push -u origin main 
-
-https://www.youtube.com/watch?v=lv5a80XgzlI
+echo "# portfolio-minas-laisa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/laisaalvesofc/portfolio-minas-laisa.git
+git push -u origin main
